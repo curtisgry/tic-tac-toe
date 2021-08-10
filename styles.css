@@ -1,0 +1,66 @@
+body {
+    font-family: 'Georama', sans-serif;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.inputs {
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 170px;
+}
+
+.input-div span {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 50px auto;
+    width: 68%;
+}
+
+#gameBoard {
+    background-color: #3E2C41;
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#gameBoard div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 150px;
+    background-color: #5C527F;
+    text-align: center;
+    padding: 5px;
+}
+
+.play {
+    padding: 8px 30px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.play:hover {
+    cursor: pointer;
+    background-color: #5C527F;
+}
